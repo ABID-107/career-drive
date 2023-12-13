@@ -1,0 +1,147 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(#191919, #750E21);
+
+}
+
+.driver {
+    display: flex;
+    margin-left: 200px;
+}
+
+.drive h1 {
+    width: 582px;
+    height: 133px;
+    font-weight: 700px;
+    font-size: 52px;
+    color: #EEE7DA;
+}
+
+.drive p {
+    width: 505px;
+    height: 60.9px;
+    color: #787676;
+}
+
+.Preebook {
+    background-color: #e3661d9b;
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 41px;
+    gap: 8px;
+}
+
+.Preebook a {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Preebook i {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cemara img {
+    width: 440px;
+    height: 414px;
+}
+
+.product-container {
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.product-container h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #EEE7DA;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product {
+    width: 329px;
+    box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 #000000;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.product-info {
+    margin-left: 20px;
+    /* margin-bottom: 50px;
+    margin-top: none; */
+}
+
+.p-name {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.p-price {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.product .rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.product img {
+    width: 300px;
+    height: 256px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    padding: 14px;
+}
+
+.product h3 {
+    font-size: 28px;
+}
+
+.product h5 {
+    font-size: 25px;
+}
+
+.fa-star.filled {
+    color: #FB8200;
+}
+
+.fa-star.empty {
+    color: #787676;
+}
+
+.product p {
+    color: #787885;
+}
+
+.see {
+    text-align: end;
+    font-size: 16px;
+    font-weight: 700;
+    color: #EEE7DA;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1B4242;
+}
