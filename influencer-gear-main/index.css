@@ -1,12 +1,15 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(#191919, #750E21);
+    width: 100%;
 
 }
 
 .driver {
     display: flex;
-    margin-left: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .drive h1 {
@@ -57,10 +60,11 @@ body {
 }
 
 .product-container {
-    width: 1000px;
+    width: 100%;
+    display: grid;
     justify-content: center;
     align-items: center;
-    padding-left: 200px;
+    /* padding-left: 200px; */
 }
 
 .product-container h3 {
@@ -76,7 +80,7 @@ body {
 
 .product {
     width: 329px;
-    box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 #000000;
+    box-shadow: 0 4px 8px 0 #00000052, 0 6px 10px 0 #0000007c;
     border-radius: 10px;
     margin: 30px;
 }
@@ -144,4 +148,242 @@ body {
 .footer {
     text-align: center;
     background-color: #1B4242;
+}
+
+@media only screen and (max-width: 425px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-image: linear-gradient(#191919, #750E21);
+        width: 100%;
+    }
+
+    .driver {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* margin-left: 200px; */
+        justify-content: center;
+        width: 100%;
+    }
+
+    .drive {
+        display: grid;
+        justify-items: center;
+        width: 100%;
+    }
+
+    .drive h1 {
+        width: 404px;
+        height: 78px;
+        font-weight: 700px;
+        font-size: 28px;
+        color: #EEE7DA;
+        text-align: center;
+
+
+    }
+
+    .drive p {
+        width: 321px;
+        height: 65px;
+        color: #787676;
+        text-align: center;
+        font-size: 14px;
+
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .Preebook {
+        background-color: #e3661d9b;
+        width: 230px;
+        height: 40px;
+        border: none;
+        border-radius: 41px;
+        gap: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Preebook a {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .Preebook i {
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        padding-left: 8px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cemara {
+        display: grid;
+        justify-items: center;
+    }
+
+    .cemara img {
+        width: 202px;
+        height: 190px;
+
+    }
+
+    .product-container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .product-menu {
+        display: grid;
+        text-align: center;
+        font-size: 30px;
+        color: #EEE7DA;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer {
+        text-align: center;
+        background-color: #1B4242;
+        width: 100%;
+
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 992px) {
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-image: linear-gradient(#191919, #750E21);
+        width: 100%;
+    }
+
+    .driver {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* margin-left: 200px; */
+        justify-content: center;
+        width: 100%;
+        margin-right: 200px;
+    }
+
+    .drive {
+        display: grid;
+        justify-items: center;
+        width: 100%;
+    }
+
+    .drive h1 {
+        width: 404px;
+        height: 78px;
+        font-weight: 700px;
+        font-size: 50px;
+        color: #EEE7DA;
+        text-align: center;
+
+
+    }
+
+    .drive p {
+        width: 700px;
+        height: 65px;
+        color: #787676;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        /* padding-top: -20; */
+    }
+
+    .Preebook {
+        background-color: #e3661d9b;
+        width: 230px;
+        height: 40px;
+        border: none;
+        border-radius: 41px;
+        gap: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Preebook a {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .Preebook i {
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        padding-left: 8px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cemara {
+        display: grid;
+        justify-items: center;
+    }
+
+    .cemara img {
+        width: 202px;
+        height: 190px;
+
+    }
+
+    .product-container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-menu {
+        display: grid;
+        text-align: center;
+        font-size: 30px;
+        color: #EEE7DA;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer {
+        text-align: center;
+        background-color: #1B4242;
+        width: 100%;
+
+    }
+
 }
