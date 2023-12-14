@@ -33,6 +33,7 @@ body {
     border: none;
     border-radius: 41px;
     gap: 8px;
+    margin-top: 20px;
 }
 
 .Preebook a {
@@ -54,9 +55,23 @@ body {
     align-items: center;
 }
 
-.cemara img {
-    width: 440px;
-    height: 414px;
+.cemara {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 350px;
+}
+
+.circle-bg {
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    z-index: -1;
 }
 
 .product-container {
@@ -99,8 +114,15 @@ body {
 
 .p-price {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 400;
     color: #ffffff;
+}
+
+.p-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #b8b8b8;
+
 }
 
 .product .rating {
@@ -134,9 +156,6 @@ body {
     color: #787676;
 }
 
-.product p {
-    color: #787885;
-}
 
 .see {
     text-align: end;
